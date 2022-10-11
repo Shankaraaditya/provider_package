@@ -14,14 +14,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Worthy..???'),
+        title: const Text('Worthy..???__I Will check using provider'),
         backgroundColor: Colors.deepPurple,
       ),
       body: SafeArea(
         
           child: Container(
         // margin: EdgeInsets.all(10),
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         
         child:ChangeNotifierProvider<HomePageProvider>(
           
